@@ -1,0 +1,31 @@
+		img{	
+			width: 664px; /*длина элемента*/
+			height: 443px; /*высота элемента*/
+		}
+		p{
+			font-size: 30px; /*размер шрифта*/
+			color: #067D43; /*цвет шрифта*/
+			width: 70%; /*ширина блока текста*/
+			margin: 0 auto; /*сделать слево и справо одинаковый отступ*/
+			margin-bottom: 20px;
+		}
+		body{
+			background: black; /*добавление фона*/
+			font-family: 'Lobster', cursive; /*добавление шрифта*/
+			text-align: center; /*отцентровать текст*/
+		}
+		h1{
+			margin-top: 25px;
+			color: #067D43;
+		}
+		.img3{
+			width: 359px;
+		}
+		.p2{
+			font-size: 40px;
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+		div{
+			margin-bottom:60px;
+		}
