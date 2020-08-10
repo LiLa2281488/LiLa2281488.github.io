@@ -1,0 +1,81 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+section{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	overflow:visible;
+}
+#first{
+	background: url(img1.jpg) no-repeat center /cover;
+}
+p{
+	margin: 0;
+}
+.menu{
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background: rgba(147,228,212,0.3) ;
+	position: fixed;
+	z-index:2;
+	width:100%;
+}
+nav a{
+	color: black;
+	margin-left: 60px;
+	transition: color 0.5s ease;
+}
+a{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none; /*удаляет подчеркивание у сылок*/
+}
+.tel{
+	margin-left: 10px;
+	color: black;
+	transition: color 0.5s ease;
+}
+.logo{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	transition: color 0.5s ease;
+}
+.logo:hover{
+	color: #E38C10;
+}
+.tel:hover{
+	color: #E38C10;
+}
+nav a:hover{
+	color: #E38C10;
+}
+#box1{
+	background: url(img3.jpg) no-repeat center /cover;
+}
+
+#box2{
+	background: url(img4.jpg) no-repeat center /cover;
+}
+#box3{
+	background: url(img5.jpg) no-repeat center /cover;
+}
+/*.connect{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	bottom: -200px;
+	background: rgba(149,243,242,0.3);
+	border-radius: 50%;
+	right: 50%;
+	margin-right: -200px;
+	z-index:5;
+}*/
